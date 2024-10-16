@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/jnrandres/utils-library/compare/v1.2.0...v1.3.0) (2024-10-16)
+
+
+### Features
+
+* add config releaserc ([7b702a7](https://github.com/jnrandres/utils-library/commit/7b702a78cb90dcf77aa20b47ccc0c517b0733eae))
+* add logging ([3eeebee](https://github.com/jnrandres/utils-library/commit/3eeebee76b0133b13cb94c13dff2b52ebd9b7412))
+
 # [1.2.0](https://github.com/jnrandres/utils-library/compare/v1.1.0...v1.2.0) (2024-10-16)
 
 
