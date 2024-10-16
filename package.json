@@ -10,7 +10,8 @@
     "build": "rm -rf dist && tsc",
     "test": "jest --coverage --silent",
     "test:watch": "jest --watchAll",
-    "test:cov": "jest --coverage"
+    "test:cov": "jest --coverage",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
