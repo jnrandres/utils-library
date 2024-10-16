@@ -1,21 +1,10 @@
 import { Config } from "jest";
 
-// const config: Config = {
-//   preset: "ts-jest",
-//   testEnvironment: "node",
-//   globals: {
-//     "ts-jest": {
-//       pathRegex: "\\.(spec|test)\\.ts$",
-//       diagnostics: false,
-//     },
-//   },
-// };
-
 const config: Config = {
   preset: 'ts-jest',
   testEnvironment: 'node',
   moduleFileExtensions: ['js', 'ts'],
-  testMatch: ['**/test/**/*.(spec|test).ts'], // Ruta de tus tests
+  testMatch: ['**/test/**/*.(spec|test).ts'],
   collectCoverage: true,
   coverageThreshold: {
     global: {
