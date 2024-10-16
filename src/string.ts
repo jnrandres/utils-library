@@ -8,5 +8,6 @@ export const capitalizeFirstLetter = (str: string | null): string => {
   if (!str) {
     return '';
   }
+  console.log('capitalizeFirstLetter');
   return str.charAt(0).toUpperCase() + str.slice(1);
-}
+};
