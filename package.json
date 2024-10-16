@@ -12,8 +12,8 @@
     "test:watch": "jest --watchAll",
     "test:cov": "jest --coverage",
     "prepare": "husky",
-    "release:minor": "release-please --release-as minor",
-    "release:major": "release-please --release-as major",
+    "release:minor": "release-please release-pr --release-as minor --repo-url='https://github.com/jnrandres/utils-library.git' ",
+    "release:major": "release-please release-pr --release-as major",
     "release:patch": "release-please --release-as patch"
   },
   "keywords": [],
@@ -21,11 +21,15 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^12.0.1",
     "@types/jest": "^29.5.13",
     "@types/node": "^22.7.5",
     "husky": "^9.1.6",
     "jest": "^29.7.0",
     "release-please": "^16.14.3",
+    "semantic-release": "^24.1.2",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
