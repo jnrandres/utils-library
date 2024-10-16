@@ -12,6 +12,7 @@
     "test:watch": "jest --watchAll",
     "test:cov": "jest --coverage",
     "prepare": "husky",
+    "release": "semantic-release --no-ci",
     "release:minor": "release-please release-pr --release-as minor --repo-url='https://github.com/jnrandres/utils-library.git' ",
     "release:major": "release-please release-pr --release-as major",
     "release:patch": "release-please --release-as patch"

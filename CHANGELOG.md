@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/jnrandres/utils-library/compare/v1.1.0...v1.2.0) (2024-10-16)
+
+
+### Features
+
+* add capitalizeFirstLetter and translateDayToSpanish tests ([3df55bc](https://github.com/jnrandres/utils-library/commit/3df55bce695bd061adc31d2c85646d45d49b96ac))
+* add translateDayToSpanish function ([76d0756](https://github.com/jnrandres/utils-library/commit/76d075633b4b7123932f84dbf63b38783ac63c71))
+
 # [1.1.0](https://github.com/jnrandres/utils-library/compare/v1.0.0...v1.1.0) (2024-10-16)
 
 
