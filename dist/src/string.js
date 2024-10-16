@@ -9,9 +9,9 @@ exports.translateDayToSpanish = exports.capitalizeFirstLetter = void 0;
  */
 const capitalizeFirstLetter = (str) => {
     if (!str) {
-        return '';
+        return "";
     }
-    console.log('capitalizeFirstLetter');
+    console.log("capitalizeFirstLetter");
     return str.charAt(0).toUpperCase() + str.slice(1);
 };
 exports.capitalizeFirstLetter = capitalizeFirstLetter;

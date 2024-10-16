@@ -1,7 +1,6 @@
 import { translateDayToSpanish } from "../../src/string";
 
 describe("String.translateDayToSpanish", () => {
-
   it("should return 'Lunes' for 'Monday'", () => {
     const result = translateDayToSpanish("Monday");
     expect(result).toBe("Lunes");
@@ -41,5 +40,4 @@ describe("String.translateDayToSpanish", () => {
     const result = translateDayToSpanish("Unknown");
     expect(result).toBe("");
   });
-
 });
