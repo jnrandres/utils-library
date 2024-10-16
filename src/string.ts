@@ -6,9 +6,8 @@
  */
 export const capitalizeFirstLetter = (str: string | null): string => {
   if (!str) {
-    return '';
+    return "";
   }
-  console.log('capitalizeFirstLetter');
   return str.charAt(0).toUpperCase() + str.slice(1);
 };
 
@@ -18,7 +17,7 @@ export const capitalizeFirstLetter = (str: string | null): string => {
  * @param day - The English name of the day (e.g., "Monday", "Tuesday").
  * @returns The Spanish name of the day (e.g., "Lunes", "Martes").
  */
-export const translateDayToSpanish = (day: string): string =>{
+export const translateDayToSpanish = (day: string): string => {
   let translate = "";
   switch (day) {
     case "Monday":
@@ -44,4 +43,4 @@ export const translateDayToSpanish = (day: string): string =>{
       break;
   }
   return translate;
-}
+};
