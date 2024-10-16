@@ -12,10 +12,7 @@
     "test:watch": "jest --watchAll",
     "test:cov": "jest --coverage",
     "prepare": "husky",
-    "release": "semantic-release --no-ci",
-    "release:minor": "release-please release-pr --release-as minor --repo-url='https://github.com/jnrandres/utils-library.git' ",
-    "release:major": "release-please release-pr --release-as major",
-    "release:patch": "release-please --release-as patch"
+    "release": "semantic-release --no-ci"
   },
   "keywords": [],
   "author": "",
@@ -29,7 +26,6 @@
     "@types/node": "^22.7.5",
     "husky": "^9.1.6",
     "jest": "^29.7.0",
-    "release-please": "^16.14.3",
     "semantic-release": "^24.1.2",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
